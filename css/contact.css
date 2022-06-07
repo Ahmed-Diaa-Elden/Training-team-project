@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Conact_Us {
+  color: #1b1e3c;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_info {
+  width: 90%;
+  height: 90vh;
+  border-radius: 8px;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #8080800a;
+}
+.design {
+  width: 40%;
+  height: 100%;
+}
+.title_contact h2 {
+  color: red;
+  font-size: 40px;
+}
+.title_us h2 {
+  font-size: 33px;
+}
+.design > div:nth-child(2) {
+  background-image: url("../imgs/undraw_Social_friends_re_7uaa.svg");
+  width: 100%;
+  height: 78%;
+  background-size: 100% 100%;
+}
+.contact_form {
+  padding: 20px;
+  width: 57%;
+  height: 100%;
+}
+.contact_form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.contac_us-info > div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1%;
+}
+.contac_us-info > div > :nth-child(1) {
+  width: 90%;
+  margin-left: 3%;
+}
+.contac_us-submit {
+  align-self: flex-start;
+}
+input[type="text"],
+input[type="email"],
+select {
+  padding: 14px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.contac_us-info .input2 {
+  width: 50%;
+  background-color: white;
+}
+.contac_us-info .input2:focus {
+  outline: none;
+  border: 2px solid rgb(135, 135, 230);
+}
+.contac_us-textarea .input3:focus {
+  outline: none;
+  border: 2px solid rgb(135, 135, 230);
+}
+.contac_us-textarea .input3 {
+  padding: 20px;
+  width: 90%;
+  border-radius: 20px;
+  resize: none;
+  margin-left: 3%;
+}
+.contac_us-submit input[type="submit"] {
+  color: white;
+  padding: 14px 20px;
+  border-radius: 14px;
+  background-image: linear-gradient(to bottom right, #8326c3, rgb(255, 0, 149));
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 20%;
+}
+.contac_us-submit input[type="submit"]:hover {
+  box-shadow: none;
+  border: none;
+}
+.sec2 {
+  width: 90%;
+  height: 91vh;
+  direction: rtl;
+  border-radius: 8px;
+  background-color: #8080800a;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec2_address h3 {
+  color: #808080;
+  font-size: 25px;
+  margin: 18px 0;
+}
+.sec2_address div:nth-child(3) > p {
+  font-size: 20px;
+  color: #808080;
+}
+.sec2_address {
+  width: 50%;
+  height: 100%;
+  direction: ltr;
+}
+.sec2_gmail {
+  width: 100%;
+}
+.sec2_gmail a {
+  text-decoration: none;
+}
+.sec2_gmail .num,
+.sec2_gmail .email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sec2_gmail .num {
+  margin-top: 15%;
+}
+.sec2_gmail .num > p {
+  color: #808080;
+  font-weight: bold;
+  margin-left: 3%;
+  word-break: break-all;
+}
+.sec2_gmail .email {
+  color: #d9a1ff;
+  font-weight: bold;
+}
+.sec2_gmail .email > p {
+  font-size: 95%;
+  margin-left: 3%;
+  word-break: break-all;
+}
+.sec2_gmail .email img,
+.sec2_gmail .num img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.sec2_map {
+  padding: 20px;
+  height: 100%;
+  width: 68%;
+  direction: ltr;
+}
+.sec2_map > div {
+  align-self: flex-start;
+  display: none;
+}
+.sec2_map > div > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.sec2_map > iframe {
+  width: 90%;
+  height: 85%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 11.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 10px 80px rgba(0, 0, 0, 0.12);
+}
+.contact_sec2 {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15%;
+}
+.contact_sec2 a {
+  display: flex;
+  background-color: #9f13ff47;
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  box-shadow: 0 5px 5px #dfdfdf;
+  border-radius: 25%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+.contact_sec2 a:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px -1px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.13), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  transform: translateY(2px);
+}
+.contact_sec2 a:hover i {
+  transform: scale(0.9);
+}
+.contact_sec2 a:hover .fa-facebook {
+  color: #3b5998;
+}
+
+.contact_sec2 a:hover .fa-whatsapp {
+  color: #4fce5d;
+}
+.sec2_address div:first-child {
+  align-self: flex-start;
+}
+.sec2_address > div > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.contact_sec2 > a > i {
+  font-size: 25px;
+}
+@media (max-height: 1200px) {
+  .Conact_Us {
+    height: 150vh;
+  }
+}
+@media (max-height: 860px) {
+  .Conact_Us {
+    height: 190vh;
+  }
+}
+@media (max-height: 680px) {
+  .Conact_Us {
+    height: 250vh;
+  }
+}
+@media (max-height: 540px) {
+  .Conact_Us {
+    height: 350vh;
+  }
+}
+@media (max-height: 390px) {
+  .Conact_Us {
+    height: 400vh;
+  }
+}
+@media (max-width: 872px) {
+  .design_title {
+    display: flex;
+  }
+  .contact_info {
+    flex-direction: column;
+    background-image: url("../imgs/undraw_Social_friends_re_7uaa.svg");
+    background-size: 100% 100%;
+    height: 36%;
+  }
+  .design > div:nth-child(2) {
+    display: none;
+  }
+  .contact_form {
+    width: 100%;
+    background-color: #f2f2f29c;
+  }
+  .title_contact h2,
+  .title_us h2 {
+    font-size: 25px;
+    margin-bottom: 27%;
+  }
+  .design {
+    width: auto;
+  }
+  .contac_us-info {
+    flex-direction: column;
+  }
+  .contac_us-info > div {
+    width: 100%;
+  }
+}
+@media (min-width: 1920px) {
+  .sec2_address > div > img {
+    width: 80px;
+    height: 80px;
+  }
+  .sec2_address h3 {
+    font-size: 35px;
+  }
+  .sec2_address div:nth-child(3) > p {
+    font-size: 30px;
+  }
+  .sec2_gmail .num img,
+  .sec2_gmail .email img {
+    height: 45px;
+    width: 45px;
+  }
+  .sec2_gmail .email > p,
+  .sec2_gmail .num > p {
+    font-size: 25px;
+  }
+  .contact_sec2 a {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (max-width: 700px) {
+  .sec2_address div:first-child {
+    display: none;
+  }
+  .sec2_map > div {
+    display: block;
+    margin-bottom: 1%;
+  }
+  .sec2_map > iframe {
+    height: 75%;
+  }
+  .sec2 {
+    height: 55%;
+    flex-direction: column-reverse;
+  }
+  .sec2_map,
+  .sec2_address {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .sec2_address > div > img {
+    width: 50px;
+    height: 50px;
+  }
+  .sec2_address h3 {
+    font-size: 20px;
+  }
+  .sec2_address div:nth-child(3) > p {
+    font-size: 13px;
+  }
+  .sec2_gmail .num img,
+  .sec2_gmail .email img {
+    height: 20px;
+    width: 20px;
+  }
+  .sec2_gmail .num > p,
+  .sec2_gmail .email > p {
+    font-size: 9.5px;
+  }
+  .contact_sec2 a {
+    height: 25px;
+    width: 25px;
+  }
+  .contact_sec2 > a > i {
+    font-size: 13px;
+  }
+}
+@media (max-width: 350px) {
+  .sec2_address h3,
+  .title_contact h2,
+  .title_us h2 {
+    font-size: 15px;
+  }
+  .sec2_address div:nth-child(3) > p {
+    font-size: 9px;
+  }
+  .sec2_gmail .num img,
+  .sec2_gmail .email img {
+    height: 13px;
+    width: 13px;
+  }
+  .sec2_gmail .num > p,
+  .sec2_gmail .email > p {
+    font-size: 7px;
+  }
+  .contact_sec2 a {
+    height: 20px;
+    width: 20px;
+  }
+  .contact_sec2 > a > i {
+    font-size: 12px;
+  }
+}
